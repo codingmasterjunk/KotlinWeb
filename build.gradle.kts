@@ -33,6 +33,16 @@ dependencies {
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+
+    /* logging */
+    implementation("io.github.microutils:kotlin-logging:1.12.5")
+    /*implementation("org.springframework.boot:spring-boot-starter-jdbc")*/
+    /* mybatis */
+    implementation("org.mybatis.spring.boot:mybatis-spring-boot-starter:3.0.3")
+    /* oracle */
+    runtimeOnly("com.oracle.database.jdbc:ojdbc11:21.5.0.0")
+
+
 }
 
 kotlin {
